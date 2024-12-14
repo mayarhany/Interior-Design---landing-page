@@ -1,0 +1,75 @@
+/* lg screen */
+@media (max-width: 1200px) {
+    /* ^ Testamonials Section */
+    .testamonial .cards{
+        left: 150px;
+    }
+
+    /*  ~ Newsletter Section */
+    .newsletter{
+        margin-top: 200px;
+    }
+}
+
+/* meduim screen */
+@media (max-width: 992px) {
+    /* ! Hero Section */
+    /* square border & down arrow  */
+    .hero .image::before,
+    .hero .image::after{
+        display: none;
+    }
+
+    /* ~ Sercices Section */
+    .services .container div:first-child div:first-child{
+        width: 45px;
+    }
+
+    /* ^ Testamonials Section */
+    /* hide the image */
+    .testamonial .image{
+        display: none;
+    }
+
+    /* arrows */
+    .testamonial .arrows div{
+        margin: auto;
+    }
+
+    .testamonial .cards{
+        position: static;
+    }
+
+    /*  ~ Newsletter Section */
+    .newsletter{
+        margin-top: 0px;
+    }
+}
+
+/* small screen */
+@media (max-width: 768px) {
+    /* Utilities */
+    .main-btn{
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    /* ! Hero Section */
+    .hero .hero-text p{
+        font-size: 16px;
+    }
+    /* counter */
+    .hero div.counter div p:first-child{
+        font-size: 30px;
+    }
+    .hero div.counter div p:last-child{
+        font-size: 10px;
+    }
+
+    /* ? Design Section */
+    .design .design-text p{
+        font-size: 16px;
+    }
+}
+
+

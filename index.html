@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interior Design</title>
+    <!-- ^ Google Fonts - Inter Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ^ Bootstrap Css File -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+
+    <!-- ^ Font Awesome -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+
+    <!-- ^ Main Style Sheet -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- ^ Media Query Style Sheet -->
+    <link rel="stylesheet" href="./css/media.css" />
+  </head>
+  <body>
+    <!-- & Navbar -->
+    <nav class="navbar navbar-expand-lg py-3">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./images/Logo.png" class="w-75" alt="VivaDesign Logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse text-md-center"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fw-semibold">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Support</a>
+            </li>
+          </ul>
+          <button class="main-btn">Sign Up</button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ! Hero Section -->
+    <header id="home" class="hero my-sm-2 my-lg-5">
+      <div class="container">
+        <div class="row">
+          <div class="hero-text col-lg-7 mb-3 mb-lg-0">
+            <h1 class="display-2 fw-medium mb-4 pt-3">Interior Design</h1>
+            <p class="lead fw-semibold lh-lg">
+              Step into a world where the art of Interior Design is meticulously
+              crafted to bring together timeless elegance and cutting-edge
+              modern Innovation, Allowing you to transform your living spaces
+              into the epitome of luxury and sophistication
+            </p>
+          </div>
+
+          <div class="col-lg-4 offset-lg-1">
+            <img src="./images/Image 1.png" alt="Our interior design sample" />
+          </div>
+        </div>
+
+        <div class="row my-5 flex-column-reverse flex-lg-row">
+          <div class="col-lg-5">
+            <button class="main-btn mt-4 mt-lg-0">Start Project</button>
+
+            <div class="counter mt-4 d-flex justify-content-between">
+              <div>
+                <p>400+</p>
+                <p class="fw-normal">Projects Complete</p>
+              </div>
+              <div>
+                <p>600+</p>
+                <p class="fw-normal">Satisfied Clients</p>
+              </div>
+              <div>
+                <p>100+</p>
+                <p class="fw-normal">Unique Styles</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 offset-lg-1 image">
+            <img src="./images/Image 2.png" alt="Our interior design sample" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ~ Services Section -->
+    <section id="services" class="services py-lg-5">
+      <div class="container">
+        <div class="d-flex align-items-center">
+          <div></div>
+          <h2 class="display-5 fw-semibold ms-4">Our Services</h2>
+        </div>
+        <div class="row my-5 py-lg-3">
+          <div class="col-lg-4 service d-flex">
+            <img
+              src="./images/Lighting design icon.png"
+              class="me-4"
+              alt="Lighting design icon"
+            />
+            <div class="service-text">
+              <h4 class="mb-4">Lighting Design</h4>
+              <p>
+                Achieve the perfect balance of ambient, task, and accent
+                lighting for a functional atmosphere
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 service d-flex">
+            <img
+              src="./images/Interior design icon.png"
+              class="me-4"
+              alt="Interior design icon"
+            />
+            <div class="service-text">
+              <h4 class="mb-4">Lighting Design</h4>
+              <p>
+                From concept to completion, we oversee every detail to bring
+                your vision to life efficiently
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 service d-flex">
+            <img
+              src="./images/Outdoor design icon.png"
+              class="me-4"
+              alt="Outdoor design icon"
+            />
+            <div class="service-text">
+              <h4 class="mb-4">Outdoor Design</h4>
+              <p>
+                Celebrate the changing seasons with our seasonal outdoor decor
+                services
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ? Design Section -->
+    <section class="design my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <img
+              src="./images/Mask group.png"
+              alt="Our interior design sample"
+            />
+          </div>
+
+          <div class="col-lg-6 offset-lg-1 mt-4 mt-lg-0 design-text">
+            <h2 class="display-5 fw-semibold">
+              Designing Your Dream With Brilliance
+            </h2>
+            <p class="lead fw-normal my-5">
+              Elevate your spaces with bespoke interior designs that reflect
+              your unique style and aspirations, crafted with precision and
+              brilliance for an unforgettable living experience
+            </p>
+
+            <div class="d-flex justify-content-between align-items-center py-2">
+              <h5>Living Room Interior Design</h5>
+              <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="d-flex justify-content-between align-items-center mt-5 pb-2">
+              <h5>Commercial Office Room Interior Design</h5>
+              <i class="fa-solid fa-plus"></i>
+            </div>
+            <button class="main-btn mt-4">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- * Process Section -->
+    <section class="process py-md-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 mb-4 mb-lg-0">
+            <h2 class="display-5 fw-semibold">
+              Designing Your Dream in Three Simple Steps
+            </h2>
+
+            <div class="step row mt-5">
+              <div class="col-3 icon">
+                <img src="./images/Step1icon.png" alt="icon" />
+              </div>
+              <div class="col-8 offset-1">
+                <h5>Start Project</h5>
+                <p>
+                  Embark on your design adventure by initiating your project.
+                  Share your vision and set the stage for a bespoke design
+                  experience
+                </p>
+              </div>
+            </div>
+            <div class="step row mt-4">
+              <div class="col-3 icon">
+                <img src="./images/Step2icon.png" alt="icon" />
+              </div>
+              <div class="col-8 offset-1">
+                <h5>Craft</h5>
+                <p>
+                  Collaborate closely to achieve design excellence refining your
+                  vision and crafting brilliance into every aspect of your space
+                </p>
+              </div>
+            </div>
+            <div class="step row mt-4">
+              <div class="col-3 icon">
+                <img src="./images/Step3icon.png" alt="icon" />
+              </div>
+              <div class="col-8 offset-1">
+                <h5>Execute</h5>
+                <p>
+                  Witness your vision becoming a reality as we execute the
+                  design plan with precision. Celebrate the joy of your newly
+                  transformed space
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 offset-lg-1">
+            <img src="./images/Image.png" alt="Our interior design sample" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ^ Testamonials Section -->
+    <section class="testamonial my-5">
+      <div class="container">
+        <div class="row flex-column-reverse flex-lg-row">
+          <div class="col-lg-5">
+            <img class="image" src="./images/Mask group (1).png" alt="Interior design" />
+            <div class="mt-3 arrows d-flex">
+              <div class="d-flex justify-content-center align-items-center me-lg-4">
+                <i class="fa-solid fa-arrow-left"></i>
+              </div>
+              <div class="d-flex justify-content-center align-items-center">
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 offset-lg-1">
+            <h2 class="display-5 fw-medium">What Our Customers Say About Us</h2>
+            
+            <div class="cards d-md-flex my-5">
+              <div class="test p-5 me-md-4 mb-3 mb-md-0">
+                <p class="fs-1">"</p>
+                <p class="mb-5">Working with your design team was an absolute pleasure. The attention to detail and creativity exceeded my expectations. Thank you for making my home beautiful!</p>
+                <div class="user d-flex">
+                  <div class="user-img me-3">
+                    <img src="./images/Mask group (2).png" alt="User" />
+                  </div>
+                  <div class="user-info">
+                    <h6>Sophie Carter</h6>
+                    <p>New York, USA</p>
+                  </div>
+                </div>
+              </div>
+              <div class="test p-5">
+                <p class="fs-1">"</p>
+                <p class="mb-5">Exceptional service! From the initial consultation to the final reveal, your team demonstrated professionalism and a keen eye for design. Highly recommend!</p>
+                <div class="user d-flex">
+                  <div class="user-img me-3">
+                    <img src="./images/Mask group (2).png" alt="User" />
+                  </div>
+                  <div class="user-info">
+                    <h6>James Bennett</h6>
+                    <p>Toronto, Canada</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ~ Newsletter Section -->
+    <section class="newsletter py-5">
+      <div class="container">
+        <div class=" w-50 mx-auto">
+          <h2 class="display-6 fw-medium text-center">Subscribe to Our Newsletter for Design Insights</h2>
+          <p class="my-5 text-center">Be the first to discover trends, inspirations, and special offers as we bring the world of design directly to your inbox</p>
+
+          <form class="d-flex flex-md-row flex-column">
+            <input type="email" class="form-control mb-md-0 mb-3" name="email" placeholder="Enter your email address" />
+            <button class="main-btn">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ! Footer -->
+    <footer class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <img src="./images/Logo 2.png" class="w-50" alt="VivaDecor logo" />
+            <p class="my-4">VivaDecor your premier destination for luxury and modern interior design</p>
+            <div class="social">
+              <ul class="d-flex justify-content-between">
+                <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://x.com/"><i class="fab fa-twitter-square"></i></a></li>
+                <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 text-lg-center mt-5 mt-lg-0">
+            <h6 class="mb-4">Our Services</h6>
+            <ul>
+              <li><a href="">Office design</a></li>
+              <li><a href="">Outdoor Design</a></li>
+              <li><a href="">Lightning design</a></li>
+              <li><a href="">Office design</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 text-lg-center mt-5 mt-lg-0">
+            <h6 class="mb-4">Our Services</h6>
+            <ul>
+              <li><a href="">Reviews</a></li>
+              <li><a href="">Careers</a></li>
+              <li><a href="">Pricing</a></li>
+              <li><a href="">Press inquires</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 text-lg-center mt-5 mt-lg-0">
+            <h6 class="mb-4">Our Services</h6>
+            <ul>
+              <li><a href="mailto:info@vivadecor.com">info@vivadecor.com</a></li>
+              <li><a href="">Design Avenue Cityville, CA 90210 United States</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ^ Bootstrap JS File -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

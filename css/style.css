@@ -1,0 +1,213 @@
+/* Variables */
+:root{
+    --font-family: "Inter", serif;
+    --main-color: #1f1f1f;
+    --secondary-color: #545454;
+}
+
+/* Global Styles */
+a{
+    color: inherit;
+    text-decoration: none;
+}
+ul{
+    padding-left: 0;
+    list-style: none;
+}
+body{
+    font-family: var(--font-family);
+}
+h1, h2, h3, h4, h5, h6{
+    color: var(--main-color);
+    font-weight: 600;
+}
+p{
+    color: var(--secondary-color);
+    font-weight: 500;
+}
+img{
+    width: 100%;
+}
+
+/* Utilities */
+.main-btn{
+    background-color: var(--main-color);
+    color: #fff;
+    padding: 15px 40px;
+    border-color: transparent;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* & Navbar */
+/* customize the default colors of Bootstrap */
+.navbar-nav .nav-link.active, 
+.navbar-nav .nav-link.show {
+    color: var(--main-color);
+}
+.nav-link{
+    color: var(--secondary-color);
+}
+
+/* sign up button */
+.navbar ul ~ button{
+    padding: 7px 30px;
+    font-size: 16px;
+}
+
+/* ! Hero Section */
+/* Counter */
+.hero div.counter div p:first-child{
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 0;
+    color: var(--main-color);
+}
+.hero div.counter div p:last-child{
+    font-size: 14px;
+}
+
+/* square border */
+.hero .image{
+    position: relative;
+}
+.hero .image::before{
+    position: absolute;
+    content: "";
+    left: -15px;
+    top: -30px;
+    width: 190px;
+    height: 160px;
+    border: 2px solid var(--main-color);
+    border-radius: 4px;
+    z-index: -1;
+}
+/* down arrow */
+.hero .image::after{
+    position: absolute;
+    content: "\2193";
+    color: #fff;
+    background-color: var(--main-color);
+    width: 100px;
+    height: 100px;
+    right: -50px;
+    bottom: 0;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+
+/* ~ Services Section */
+/* the line before the heading */
+.services .container div:first-child div:first-child{
+    width: 70px;
+    height: 3px;
+    background-color: var(--main-color);
+}
+.services .service img{
+    width: 50px;
+    height: 50px;
+}
+.services .service .service-text p{
+    font-size: 15px;
+}
+
+/* ? Design Section */
+/* the bottom border */
+.design .design-text div{
+    border-bottom: 1px solid #dadada;
+}
+
+/* * Process Section */
+.process .step div:first-child{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.process .step img{
+    width: 20px;
+}
+/* the vertical line */
+.process .step .icon{
+    position: relative;
+}
+.process .step:not(.process .step:last-of-type) .icon::after{
+    position: absolute;
+    content: "";
+    bottom: -130%;
+    left: 47%;
+    background-color: #9b9b9b;
+    width: 1px;
+    height: 50px;
+}
+
+/* ^ Testamonials Section */
+.testamonial .container{
+    position: relative;
+}
+.testamonial .arrows div{
+    width: 50px;
+    height: 50px;
+    background-color: #f1f1f1;
+    color: #464646;
+    font-size: 18px;
+    cursor: pointer;
+}
+.testamonial .cards{
+    position: absolute;
+    left: 200px;
+}
+.testamonial .test{
+    background-color: var(--main-color);
+    border-radius: 4px;
+}
+.testamonial .test p,
+.testamonial .test .user-info h6{
+    color: #fff;
+}
+.testamonial .test .user .user-info p{
+    font-size: 13px;
+    color: #929292;
+}
+.testamonial .test .user .user-img{
+    width: 60px;
+    height: 60px;
+}
+
+/*  ~ Newsletter Section */
+.newsletter form{
+    box-shadow: 0 10px 100px 0 #00000024;
+}
+
+/* ! Footer */
+footer{
+    background-color: var(--main-color);
+}
+footer p,
+footer ul li{
+    color: #d1d1d1;
+}
+footer h6{
+    color: #fff;
+}
+
+footer .social ul li{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #313131;
+    color: #fff;
+    border-radius: 2px;
+}
+footer h6 ~ ul li{
+    margin-bottom: 10px;
+}
